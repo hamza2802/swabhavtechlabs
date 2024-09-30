@@ -50,16 +50,11 @@ public class BookCricket {
 		}
 		}
 		
-		
-		
-		
 		int yourtotalscore = 0;
 		
 		
 		int yourscore;
 		int Player2score;
-		
-		
 		
 		while(true) {
 			System.out.println("Press 1 to Play: ");
@@ -109,17 +104,6 @@ public class BookCricket {
 		}else {
 			System.out.println("Player2 Won the Match");
 		}
-		 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
