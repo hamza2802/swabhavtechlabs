@@ -1,4 +1,4 @@
-package com.techlabs.twentyeight;
+package com.techlabs.assignments3;
 
 import java.util.Random;
 import java.util.Scanner;
