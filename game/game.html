@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Number Guesser Game</h1>
+        <p>How many blocks do you want to s?</p>
+        <input type="number" id="blockCount" placeholder="Enter number of blocks">
+        <button onclick="createBlocks()">Start Game</button>
+
+        <div id="blocksContainer" class="blocks-container"></div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
